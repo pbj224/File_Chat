@@ -11,8 +11,6 @@ import pandas as pd
 import numpy as np
 from transformers import GPT2TokenizerFast
 
-openai.api_key = "API_KEY_HERE"
-
 def passage_segmenter(passage, interval=8000):
     segment = []
     count = 0
