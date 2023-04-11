@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 from transformers import GPT2TokenizerFast
 
-openai.api_key = "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"
+openai.api_key = "API_KEY_HERE"
 
 def passage_segmenter(passage, interval=8000):
     segment = []
